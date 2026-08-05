@@ -66,6 +66,10 @@ export const en: ToolContent = {
       a: 'It is a container file, in a format called TNEF, that Outlook creates when it sends a message formatted as "Outlook Rich Text" to someone whose mail program does not understand that format. Whatever the sender actually attached is stored inside it, along with some formatting for the message text.',
     },
     {
+      q: 'Is this the same as a "windat", "win.dat" or "winmail dat" file?',
+      a: 'Yes. winmail.dat gets typed and searched for as windat, win.dat or winmail dat too — they all refer to the same file Outlook creates. This tool opens it regardless of how you spelled it to find this page.',
+    },
+    {
       q: 'Why did my attachment turn into this?',
       a: 'The sender is using Outlook with a setting that formats outgoing mail as Outlook Rich Text (sometimes turned on automatically for contacts in a corporate address book). Their mail server bundles the message and its attachments into one winmail.dat before sending it. Nothing you did caused this, and the sender usually does not realize it happens.',
     },

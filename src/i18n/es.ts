@@ -69,6 +69,10 @@ export const es: ToolContent = {
       a: 'Es un archivo contenedor, en un formato llamado TNEF, que Outlook crea al enviar un mensaje con formato «texto enriquecido de Outlook» a alguien cuyo programa de correo no entiende ese formato. Lo que el remitente adjuntó de verdad se guarda dentro, junto con parte del formato del texto del mensaje.',
     },
     {
+      q: '¿Es lo mismo que un archivo «windat», «win.dat» o «winmail dat»?',
+      a: 'Sí. winmail.dat a veces se escribe o se busca también como windat, win.dat o winmail dat — en todos los casos es el mismo archivo que genera Outlook. Esta herramienta lo abre igual, sea cual sea la forma en que lo escribiste para llegar aquí.',
+    },
+    {
       q: '¿Por qué mi archivo adjunto se convirtió en esto?',
       a: 'El remitente usa Outlook con una opción que da formato de texto enriquecido a los correos salientes (a veces se activa automáticamente para contactos de una libreta de direcciones corporativa). El servidor de correo del remitente empaqueta el mensaje y sus adjuntos en un winmail.dat antes de enviarlo. Tú no has hecho nada mal, y normalmente ni el propio remitente se da cuenta de que ocurre.',
     },

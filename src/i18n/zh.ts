@@ -69,6 +69,10 @@ export const zh: ToolContent = {
       a: '它是一种叫 TNEF 的容器文件，当 Outlook 以“Outlook 富文本格式”发送邮件，而收件人的邮件程序无法识别这种格式时，Outlook 就会生成它。发件人实际添加的附件,连同邮件正文的一些格式信息,都存放在里面。',
     },
     {
+      q: '这和写成“windat”“win.dat”“winmail dat”的文件是同一种吗？',
+      a: '是的。winmail.dat 有时也会被写成或搜索成 windat、win.dat、winmail dat，指的都是 Outlook 生成的同一种文件。无论你用哪种写法找到这个页面，这个工具都能同样打开它。',
+    },
+    {
       q: '为什么我的附件会变成这样？',
       a: '发件人在用 Outlook，并且发件设置成了“Outlook 富文本格式”（有时是企业通讯录里的联系人自动触发的）。发件人的邮件服务器会在发送前，把邮件正文和附件一起打包进一个 winmail.dat。这不是你造成的，发件人往往自己也没意识到。',
     },
