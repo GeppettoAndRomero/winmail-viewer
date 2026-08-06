@@ -26,7 +26,7 @@ export const es: ToolContent = {
   intro: {
     h2: 'Por qué te ha llegado un archivo llamado winmail.dat',
     paras: [
-      'winmail.dat aparece cuando alguien que usa Outlook te envía un correo con formato «texto enriquecido de Outlook» y tu programa de correo no es Outlook. En vez del archivo que esa persona adjuntó de verdad —un PDF, una foto, una hoja de cálculo—, recibes un archivo con un nombre raro que no parece abrirse con nada. El adjunto real no se ha perdido: está empaquetado dentro de winmail.dat en un formato llamado TNEF, y esta herramienta lo desempaqueta.',
+      'winmail.dat aparece cuando alguien que usa Outlook te envía un correo con formato «texto enriquecido de Outlook» y tu programa de correo no es Outlook. En vez del archivo que esa persona adjuntó de verdad —un PDF, una foto, una hoja de cálculo—, recibes un archivo con un nombre raro que no parece abrirse con nada. El adjunto real no se ha perdido: está empaquetado dentro de winmail.dat en un formato llamado TNEF, y esta herramienta lo desempaqueta online, directamente en tu navegador, sin instalar nada.',
       'Suelta el archivo aquí y se lee al momento en tu navegador. La herramienta lista cada adjunto que encuentra dentro, con su nombre y tamaño, y te deja descargar cada uno por separado, o todos juntos, tal como eran los archivos originales.',
     ],
   },

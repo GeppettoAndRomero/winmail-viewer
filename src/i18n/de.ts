@@ -27,7 +27,7 @@ export const de: ToolContent = {
   intro: {
     h2: 'Warum du eine Datei namens winmail.dat bekommen hast',
     paras: [
-      'winmail.dat taucht auf, wenn jemand mit Outlook eine E-Mail im Format „Outlook-Rich-Text“ verschickt und dein Mailprogramm nicht Outlook ist. Statt der Datei, die eigentlich angehängt wurde — ein PDF, ein Foto, eine Tabelle —, bekommst du eine seltsam benannte Datei, die sich scheinbar nicht öffnen lässt. Der echte Anhang ist nicht verloren; er steckt in einem Format namens TNEF in der winmail.dat, und dieses Tool packt ihn wieder aus.',
+      'winmail.dat taucht auf, wenn jemand mit Outlook eine E-Mail im Format „Outlook-Rich-Text“ verschickt und dein Mailprogramm nicht Outlook ist. Statt der Datei, die eigentlich angehängt wurde — ein PDF, ein Foto, eine Tabelle —, bekommst du eine seltsam benannte Datei, die sich scheinbar nicht öffnen lässt. Der echte Anhang ist nicht verloren; er steckt in einem Format namens TNEF in der winmail.dat, und dieses Tool packt ihn online direkt im Browser wieder aus, ganz ohne zusätzliche Software.',
       'Ziehe die Datei hierher, und sie wird direkt in deinem Browser gelesen. Das Tool listet jeden Anhang, den es darin findet, mit Name und Größe auf und lässt dich jeden einzeln — oder alle zusammen — als die gewöhnlichen Dateien herunterladen, die sie schon immer waren.',
     ],
   },
